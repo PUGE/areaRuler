@@ -1,20 +1,18 @@
-ruler.js
+areaRuler
 ======
 
 ### Demo
-<a href="Demo page">Demo Page</a>
+<a href="https://puge.github.io/areaRuler/">示例Demo</a>
 
 
-ruler.js is an HTML5 ruler plugin that provides a set of 'photoshop' like rulers to surround the 'stage' of your authoring tools.
-No jquery!
-No dependencies!
+为areaRuler指定一个容器，它可以为你创造一个类似于PS的区域标尺！
 
-###Installation
+###安装
 <hr>
 <br/>
 
 ```terminal
-npm install ruler.js --save
+npm install arearuler --save
 ```
 
 <br/>
@@ -22,8 +20,8 @@ Then
 <br/>
 
 ```html
-<link rel="stylesheet" href="node_modules/ruler.js/dist/ruler.min.css">
-<script src="node_modules/ruler.js//dist/ruler.min.js"></script>
+import Ruler from 'ruler.js'
+import 'ruler.js/dist/ruler.min.css'
 ```
 
 <br/>
