@@ -20,8 +20,8 @@ Then
 <br/>
 
 ```html
-import Ruler from 'ruler.js'
-import 'ruler.js/dist/ruler.min.css'
+import Ruler from 'arearuler'
+import 'arearuler/dist/ruler.min.css'
 ```
 
 <br/>
@@ -49,7 +49,7 @@ myRuler.api.setPos({x:100, y:100})
 /*
 改变标尺的坐标点
 */
-myRuler.api.scale(1.5);
+myRuler.api.setScale(1.5);
 /*
 改变标尺缩放比例
 */
